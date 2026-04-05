@@ -77,7 +77,7 @@ export default function KonarkNavbar() {
 
         <Link to="/" className="flex items-center gap-2.5 select-none no-underline">
           <img src={logo} alt="Konark Logo" className="w-9 h-9 object-contain" />
-          <span className="text-[#004D3D] text-xl font-bold tracking-tight">Konark</span>
+          <span className="text-[#004D3D] text-xl font-bold tracking-tight">Blown Vision Machinary</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

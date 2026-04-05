@@ -94,7 +94,6 @@ export default function Home() {
   const [machineCardsRef, machineCardsInView] = useInView();
   const [featHeadingRef, featHeadingInView] = useInView();
   const [featCardsRef, featCardsInView] = useInView();
-  const [partnersRef, partnersInView] = useInView();
 
   useEffect(() => {
     const t = setTimeout(() => setLoaded(true), 100);
@@ -108,7 +107,7 @@ export default function Home() {
       <div className="w-full bg-[#F8F9FA] overflow-hidden">
 
         {/* ── Hero ── */}
-        <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-8 py-10 sm:py-14 md:py-16 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
+        <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-8 py-5 sm:py-7 md:py-8 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
 
           <div
             className={`flex-1 w-full max-w-xl transition-all duration-700 ${

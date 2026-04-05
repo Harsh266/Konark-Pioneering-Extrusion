@@ -1,11 +1,15 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
-
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello, Vite + React!</h1>
-    </>
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

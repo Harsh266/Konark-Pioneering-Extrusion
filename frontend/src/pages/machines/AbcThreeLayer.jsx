@@ -165,7 +165,7 @@ export default function AbcThreeLayer() {
               <span>Blown Film</span>
             </div>
             <h1 className="text-[1.8rem] sm:text-[2.2rem] lg:text-[2.6rem] font-bold text-[#003429] leading-tight mb-4">
-              ABA Three Layer Blown Film Extrusion Line
+              ABC Three Layer Blown Film Extrusion Line
             </h1>
             <p className="text-[14px] sm:text-[15px] text-[#404945] leading-relaxed mb-6 max-w-xl">
               Designed for high-performance production of three-layer films using maximum percentage of recycled &amp; calcium filled materials in the middle layer, delivering higher resistance and better quality with significantly reduced raw material cost.

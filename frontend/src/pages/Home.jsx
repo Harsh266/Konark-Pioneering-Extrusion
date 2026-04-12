@@ -17,6 +17,7 @@ import solution from "../../public/solution.png";
 import Navbar from "../components/Navbar";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const avatars = [
   "https://randomuser.me/api/portraits/men/32.jpg",
@@ -33,6 +34,7 @@ const machines = [
         Monolayer Blown Film Extrusion <br /> Line
       </>
     ),
+    path: "/machines/monolayer",
     specs: [
       { label: "Output", value: "25 - 500 Kg/hr" },
       { label: "Material", value: "HDPE/HM" },
@@ -43,6 +45,7 @@ const machines = [
     image:
       "https://www.polystarco.com/upload/catalog_m/Three%20Layer%20ABA%20Blown%20Film%20Machine__23L05BPZh4.png",
     title: "ABA Three Layer Blown Film Extrusion Line",
+    path: "/machines/aba",
     specs: [
       { label: "Output", value: "40 - 150 Kg/hr" },
       { label: "Material", value: "HDPE/LDPE" },
@@ -53,6 +56,7 @@ const machines = [
     image:
       "https://www.plastar-machine.com/UserFiles/pd/abc-three-layer-co-extrusion_spic.jpg",
     title: "ABC Three Layer Blown Film Extrusion Line",
+    path: "/machines/abc",
     specs: [
       { label: "Output", value: "90 - 300 Kg/hr" },
       { label: "Material", value: "LLDPE/LDPE" },
@@ -328,7 +332,9 @@ export default function Home() {
               </div>
               <div
                 className={`absolute top-6 left-6 sm:left-4 md:left-6 bg-white rounded-2xl shadow-md px-3 sm:px-4 py-2 sm:py-3 flex items-center gap-2 sm:gap-3 transition-all duration-700 delay-500 ${
-                  loaded ? "opacity-80 translate-y-0" : "opacity-0 -translate-y-4"
+                  loaded
+                    ? "opacity-80 translate-y-0"
+                    : "opacity-0 -translate-y-4"
                 }`}
               >
                 <div className="bg-[#003429] rounded-xl p-2">
@@ -345,7 +351,9 @@ export default function Home() {
               </div>
               <div
                 className={`absolute bottom-4 right-6 sm:right-4 md:right-4 bg-white/90 backdrop-blur-sm rounded-2xl shadow-md px-3 sm:px-5 py-2 sm:py-3 flex items-center gap-2 sm:gap-3 transition-all duration-700 delay-700 ${
-                  loaded ? "opacity-80 translate-y-0" : "opacity-0 translate-y-4"
+                  loaded
+                    ? "opacity-80 translate-y-0"
+                    : "opacity-0 translate-y-4"
                 }`}
               >
                 <div className="bg-[#7EBDA8] rounded-xl p-2">
@@ -430,13 +438,13 @@ export default function Home() {
                         </div>
                       ))}
                     </div>
-                    <a
-                      href="#"
-                      className="inline-flex items-center gap-1.5 text-[#003429] font-bold text-sm mt-5 sm:mt-6 group hover:gap-3 transition-all duration-200"
+                    <Link
+                      to={machine.path}
+                      className="mt-auto pt-5 sm:pt-6 inline-flex items-center gap-1.5 text-[#003429] font-bold text-sm group hover:gap-3 transition-all duration-200"
                     >
                       View Details
                       <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}

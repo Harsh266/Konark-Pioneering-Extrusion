@@ -165,7 +165,7 @@ export default function AbcThreeLayer() {
               <span>Blown Film</span>
             </div>
             <h1 className="text-[1.8rem] sm:text-[2.2rem] lg:text-[2.6rem] font-bold text-[#003429] leading-tight mb-4">
-              ABC Three Layer Blown Film Extrusion Line
+              ABA Three Layer Blown Film Extrusion Line
             </h1>
             <p className="text-[14px] sm:text-[15px] text-[#404945] leading-relaxed mb-6 max-w-xl">
               Uniquely designed for high-performance production of three distinct ABC layers with flexible layer ratio of 1:1:1 / 1:2:1 / 1:3:1, delivering superior barrier properties, enhanced film quality, and versatile material compatibility for demanding industrial applications.

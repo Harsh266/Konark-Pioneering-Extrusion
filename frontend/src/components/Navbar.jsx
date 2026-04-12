@@ -3,9 +3,9 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../../public/logo.png";
 
 const machineLinks = [
-  { label: "CNC Machines",     href: "/machines/cnc"     },
-  { label: "Lathe Machines",   href: "/machines/lathe"   },
-  { label: "Milling Machines", href: "/machines/milling" },
+  { label: "Monolayer Blown Film Extrusion Line",     href: "/machines/monolayer"     },
+  { label: "ABA Three Layer Blown Film Extrusion Line",   href: "/machines/aba"   },
+  { label: "ABC Three Layer Blown Film Extrusion Line", href: "/machines/abc" },
 ];
 
 const navLinks = [

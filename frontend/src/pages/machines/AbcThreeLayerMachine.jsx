@@ -1,4 +1,4 @@
-import { CheckCircle, Clock, Ruler, Bot, ShoppingBag, ShoppingCart, Trash2, Layers, AlignLeft, Sprout, Flame, Wind, RefreshCw, Compass, SlidersHorizontal, Cpu, RotateCw, History, Zap, Sigma, Eye, PlusCircle } from "lucide-react";
+import { CheckCircle, Clock, Ruler, Bot, ShoppingBag, ShoppingCart, Trash2, Layers, AlignLeft, Sprout, Flame, Wind, RefreshCw, Compass, SlidersHorizontal, Cpu, RotateCw, History, Zap, Sigma, Eye, PlusCircle, Package, Shirt, Recycle, UtensilsCrossed, Box } from "lucide-react";
 import { useEffect, useRef } from "react";
 import Navbar from "../../components/Navbar";
 import Cta from "../../components/Cta";
@@ -50,7 +50,7 @@ function useScrollReveal() {
   }, []);
 }
 
-export default function Monolayer() {
+export default function AbcThreeLayerMachine() {
   useScrollReveal();
 
   return (
@@ -129,8 +129,8 @@ export default function Monolayer() {
                   Premium Series
                 </span>
                 <img
-                  src="https://cpimg.tistatic.com/08592631/b/4/Monolayer-Blown-Film-Extrusion-Line.jpg"
-                  alt="Blown Film Extrusion Machine"
+                  src="https://www.plastar-machine.com/UserFiles/pd/abc-three-layer-co-extrusion_spic.jpg"
+                  alt="ABC Three Layer Blown Film Extrusion Line"
                   className="w-full h-[240px] sm:h-[320px] md:h-[400px] lg:h-[450px] object-cover"
                 />
               </div>
@@ -143,7 +143,7 @@ export default function Monolayer() {
                 </div>
                 <div>
                   <p className="text-[9px] sm:text-[10px] font-semibold uppercase text-[#4C635B]">Max Output</p>
-                  <p className="text-base sm:text-lg font-bold text-[#003429]">500 Kg/hr</p>
+                  <p className="text-base sm:text-lg font-bold text-[#003429]">150 Kg/hr</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 pt-3">
@@ -152,7 +152,7 @@ export default function Monolayer() {
                 </div>
                 <div>
                   <p className="text-[9px] sm:text-[10px] font-semibold uppercase text-[#4C635B]">Max Width</p>
-                  <p className="text-base sm:text-lg font-bold text-[#003429]">3000 mm</p>
+                  <p className="text-base sm:text-lg font-bold text-[#003429]">1800 mm</p>
                 </div>
               </div>
             </div>
@@ -165,11 +165,10 @@ export default function Monolayer() {
               <span>Blown Film</span>
             </div>
             <h1 className="text-[1.8rem] sm:text-[2.2rem] lg:text-[2.6rem] font-bold text-[#003429] leading-tight mb-4">
-              Monolayer Blown Film Extrusion Line
+              ABC Three Layer Blown Film Extrusion Line
             </h1>
             <p className="text-[14px] sm:text-[15px] text-[#404945] leading-relaxed mb-6 max-w-xl">
-              Designed for high-performance production of single-layer films.
-              Delivering unparalleled consistency, energy efficiency, and industrial-grade reliability.
+              Designed for high-performance production of three-layer films using maximum percentage of recycled &amp; calcium filled materials in the middle layer, delivering higher resistance and better quality with significantly reduced raw material cost.
             </p>
             <div>
               <p className="text-[10px] sm:text-[11px] font-semibold uppercase text-[#003429] mb-3">
@@ -247,19 +246,19 @@ export default function Monolayer() {
             <ul className="space-y-3 font-medium">
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Unique barrier screw design for optimal mixing</span>
+                <span>Grooved feed type nitrided barrel for higher output</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Grooved feed nitrided barrels for higher output</span>
+                <span>Nitrided screw-barrel made of special alloy steel for longer life</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Precision spiral type die for gauge consistency</span>
+                <span>Uniquely designed spiral type Co-Ex ABA die for HM-HDPE or LD-LLDPE materials</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Nitrided screw-barrel assembly (En41B)</span>
+                <span>Compact dimensions for minimum space requirement</span>
               </li>
             </ul>
           </div>
@@ -272,19 +271,19 @@ export default function Monolayer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>High-torque helical gear box with internal cooling</span>
+                <span>Helical gear box with inbuilt thrust bearing</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>AC Variable frequency drives for all motors</span>
+                <span>High velocity air ring blower with AC invertor drive</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Synchronized speed control system</span>
+                <span>Single point synchronization of whole line with AC motors and AC invertor drives</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Efficient energy-saving motors (IE3 Class)</span>
+                <span>Uniquely designed air cooling ring for higher output</span>
               </li>
             </ul>
           </div>
@@ -293,23 +292,23 @@ export default function Monolayer() {
             <div className="w-11 h-11 rounded-xl bg-[#003429]/5 flex items-center justify-center mb-5">
               <Cpu size={22} className="text-[#003429]" />
             </div>
-            <h3 className="text-lg sm:text-xl font-semibold text-[#003429] mb-4">Control Systems</h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-[#003429] mb-4">Control & Finishing</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>PLC based automated control with HMI touchscreen</span>
+                <span>Bubble calibrating basket / its ring</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Precision PID temperature controllers</span>
+                <span>Web aligner system for precise film tracking</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Bubble calibrating basket with height adjustment</span>
+                <span>Single / two station surface type rewinder</span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#404945] leading-relaxed">
                 <CheckCircle size={18} className="text-[#003429] shrink-0 mt-0.5" />
-                <span>Non-contact ultrasonic bubble sensors</span>
+                <span>High density ceramic type band heaters with SSR based all heating zones</span>
               </li>
             </ul>
           </div>
@@ -337,11 +336,11 @@ export default function Monolayer() {
           <div className="flex items-center justify-between bg-white border border-[#BFC9C3]/30 rounded-2xl px-5 py-5 attach-hover reveal reveal-up d-1">
             <div className="flex items-center gap-4">
               <div className="w-11 h-11 rounded-xl bg-[#E7E8E9] flex items-center justify-center shrink-0">
-                <RotateCw size={20} className="text-[#003429]" />
+                <Layers size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">360° Rotating Die</p>
-                <p className="text-xs sm:text-sm text-[#404945]">Uniform Thickness</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">LDPE/LLDPE Attachment</p>
+                <p className="text-xs sm:text-sm text-[#404945]">Material Flexibility</p>
               </div>
             </div>
             <PlusCircle size={22} className="text-[#BFC9C3] shrink-0" />
@@ -353,7 +352,7 @@ export default function Monolayer() {
                 <SlidersHorizontal size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">Lever Type Screen Changer</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">Lever Type Filter Changer</p>
                 <p className="text-xs sm:text-sm text-[#404945]">Seamless Filtration</p>
               </div>
             </div>
@@ -366,8 +365,8 @@ export default function Monolayer() {
                 <History size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">Fully Automatic Winder</p>
-                <p className="text-xs sm:text-sm text-[#404945]">High Efficiency</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">Semi / Fully Automatic Winder</p>
+                <p className="text-xs sm:text-sm text-[#404945]">With PLC Control</p>
               </div>
             </div>
             <PlusCircle size={22} className="text-[#BFC9C3] shrink-0" />
@@ -379,7 +378,7 @@ export default function Monolayer() {
                 <Zap size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">Industrial Corona Treater</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">Corona Treater Unit</p>
                 <p className="text-xs sm:text-sm text-[#404945]">Surface Treatment</p>
               </div>
             </div>
@@ -389,11 +388,11 @@ export default function Monolayer() {
           <div className="flex items-center justify-between bg-white border border-[#BFC9C3]/30 rounded-2xl px-5 py-5 attach-hover reveal reveal-up d-5">
             <div className="flex items-center gap-4">
               <div className="w-11 h-11 rounded-xl bg-[#E7E8E9] flex items-center justify-center shrink-0">
-                <Sigma size={20} className="text-[#003429]" />
+                <Wind size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">Gravimetric Dosing System</p>
-                <p className="text-xs sm:text-sm text-[#404945]">Precision Mixing</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">Air Winding Shaft</p>
+                <p className="text-xs sm:text-sm text-[#404945]">Precision Winding</p>
               </div>
             </div>
             <PlusCircle size={22} className="text-[#BFC9C3] shrink-0" />
@@ -402,11 +401,11 @@ export default function Monolayer() {
           <div className="flex items-center justify-between bg-white border border-[#BFC9C3]/30 rounded-2xl px-5 py-5 attach-hover reveal reveal-up d-6">
             <div className="flex items-center gap-4">
               <div className="w-11 h-11 rounded-xl bg-[#E7E8E9] flex items-center justify-center shrink-0">
-                <Eye size={20} className="text-[#003429]" />
+                <Sigma size={20} className="text-[#003429]" />
               </div>
               <div>
-                <p className="text-sm sm:text-base font-bold text-[#003429]">Automatic Gauge Control</p>
-                <p className="text-xs sm:text-sm text-[#404945]">Thickness Monitoring</p>
+                <p className="text-sm sm:text-base font-bold text-[#003429]">Auto Hopper Loader Cum Dryer</p>
+                <p className="text-xs sm:text-sm text-[#404945]">Material Handling</p>
               </div>
             </div>
             <PlusCircle size={22} className="text-[#BFC9C3] shrink-0" />
@@ -431,9 +430,9 @@ export default function Monolayer() {
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
               <ShoppingBag size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Shopping Bags</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Shopping & Carry Bags</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              High-tensile strength carrier solutions for retail environments.
+              High-tensile strength carrier and D-cut bag solutions for retail environments.
             </p>
           </div>
 
@@ -441,9 +440,9 @@ export default function Monolayer() {
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
               <ShoppingCart size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Grocery Bags</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Grocery & T-Shirt Bags</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              Food-grade, lightweight packaging for daily supermarket needs.
+              Food-grade, lightweight packaging for daily supermarket and convenience store needs.
             </p>
           </div>
 
@@ -451,39 +450,39 @@ export default function Monolayer() {
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
               <Trash2 size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Trash Bags</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Garbage Bags & Liners</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              Heavy-duty puncture-resistant liners for industrial waste management.
+              Heavy-duty puncture-resistant liners for industrial and household waste management.
             </p>
           </div>
 
           <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center card-hover reveal reveal-scale d-4">
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
-              <Layers size={26} className="text-[#004D3D]" />
+              <Package size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Shrink Film</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Detergent & Garment Packaging</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              Thermal-wrap protection for securing bulk goods during transport.
+              Versatile films for various packaging like detergent, garment and crop products.
             </p>
           </div>
 
           <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center card-hover reveal reveal-scale d-5">
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
-              <AlignLeft size={26} className="text-[#004D3D]" />
+              <UtensilsCrossed size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Lamination Film</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Food Products Packaging</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              Premium protective barriers for high-quality flexible packaging.
+              General and loose packing films for food products and dairy product applications.
             </p>
           </div>
 
           <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center card-hover reveal reveal-scale d-6">
             <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-[24px] bg-[#003429]/5 flex items-center justify-center mb-6">
-              <Sprout size={26} className="text-[#004D3D]" />
+              <Layers size={26} className="text-[#004D3D]" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Mulch Film</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#003429] mb-3">Industrial Film</h3>
             <p className="text-xs sm:text-sm text-[#404945] leading-relaxed font-medium">
-              Specialized agricultural films for soil temperature and moisture control.
+              Heavy-duty industrial films for bulk packaging, wrapping and protective applications.
             </p>
           </div>
 
@@ -509,45 +508,37 @@ export default function Monolayer() {
             <thead>
               <tr className="bg-[#003429] text-white">
                 <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Plant Model</th>
-                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Screw Size</th>
-                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Layflat Width</th>
-                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Max Production</th>
-                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Connected Load</th>
-                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Dimension (LxWxH)</th>
+                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Screw Size (mm)</th>
+                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Layflat Width (mm)</th>
+                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Max Production (Kg/hr)</th>
+                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Connected Load (KW)</th>
+                <th className="text-left px-4 sm:px-6 py-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase">Dimension (L×W×H) ft</th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-[#E7E8E9]">
               <tr className="row-hover">
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KBFH/35-G</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">35 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">100-350 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">25-35 Kg/hr</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">22 KW</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">Contact Sales</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KWLA/35×40×G</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">35×40</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">200 to 600</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">70</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">52</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">12 × 10 × 15</td>
               </tr>
               <tr className="row-hover">
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KBFH/45-G</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">45 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">400-650 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">50-70 Kg/hr</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">35 KW</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">Contact Sales</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KWLA/40×47×G</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">40×47</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">300 to 900</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">90</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">64</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">12 × 10 × 18</td>
               </tr>
               <tr className="row-hover">
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KBFL/55-G</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">55 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">800-1200 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">110-140 Kg/hr</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">65 KW</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">Contact Sales</td>
-              </tr>
-              <tr className="row-hover">
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KBFL/75-G</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">75 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">1500-3000 mm</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">280-450 Kg/hr</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">120 KW</td>
-                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">Contact Sales</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-bold text-[#003429]">KWLA/47×65×G</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">47×65</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">800 to 1300</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">120</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">98</td>
+                <td className="px-4 sm:px-6 py-4 sm:py-5 font-semibold text-[#404945]">25 × 12 × 18</td>
               </tr>
             </tbody>
           </table>
